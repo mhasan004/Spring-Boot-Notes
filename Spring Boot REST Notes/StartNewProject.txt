@@ -1,0 +1,14 @@
+1) Start up a project fast -> https://start.spring.io/
+    - Maven, Spring boot version (no snapshot), Jar packaging, Java latest version
+    - Dependencies:
+        Web
+            - * Spring Web (let su use REST applicaitons using Spring MVC)
+        SQL
+            - * Spring Data JPA (Lets spring application talk to sql db with hibernate, makign things really easily (see my tutorial notes with Amigoscode tutorial))
+            - (optional) H2 database (if u want to use an inmemory db liek redis or connect to a real db)
+            - * PostgreSQL Driver (a JDBC driver to allow java program to talk to a PostgreSQL db)
+        NOSQL
+            - mongodb, redis, etc
+2) unzip -> open IntelliJ
+    open -> open the folder
+
